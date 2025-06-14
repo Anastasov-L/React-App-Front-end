@@ -8,11 +8,8 @@ import Removed from '../resources/removed.png'
 import Reminder from '../resources/reminder.png'
 import { ListTitleText, ListLinkText, ListButtonText } from '../css/texts'
 
-
-
-
 const ReviewsList = () => {
-      const [isLessThan900] = useMediaQuery(["(max-width: 849px)"]);
+const [isLessThan900] = useMediaQuery(["(max-width: 849px)"]);
 const isMdBreakpoint = useBreakpointValue({
   base: true,
   sm: false,
@@ -22,21 +19,7 @@ const isMdBreakpoint = useBreakpointValue({
 });
 
 const useColumn = isMdBreakpoint && isLessThan900;
-
-
-      const [isLessThan] = useMediaQuery(["(max-width: 849px)"]);
-const isMdBreak = useBreakpointValue({
-  base: true,
-  sm: false,
-  md: true,
-  lg: false,
-  xl: false,
-});
-
-const useCol = isMdBreakpoint && isLessThan;
-
-
-        const isDefaultOpen = useBreakpointValue({ base: false, sm: false, md: true, lg: true, xl: true }); // Open for larger screens, closed for smaller
+const isDefaultOpen = useBreakpointValue({ base: false, sm: false, md: true, lg: true, xl: true }); // Open for larger screens, closed for smaller
     
     const navigate = useNavigate();
     function handleReviews(){
