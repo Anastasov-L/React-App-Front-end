@@ -1,5 +1,5 @@
 # React + TypeScript + Vite
-Try it out: 
+[Try it now - Provided with Vercel](https://react-qv5eslbty-anastasov-ls-projects.vercel.app/#/login)
 
 Currently, two official plugins are available:
 
