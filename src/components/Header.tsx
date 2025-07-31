@@ -94,7 +94,7 @@ export default function Header() {
             fontSize={{ base: "0px", sm: "14px", md: "13px", lg: "18px" }}
             whiteSpace="nowrap"
           >
-            John Smith
+            John S.
           </Text>
           <Text
             font="inter"
